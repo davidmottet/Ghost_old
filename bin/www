@@ -1,0 +1,7 @@
+'use strict';
+const { log } = console;
+
+const web = require('../web');
+
+log('Starting secure server web');
+web.secureServer();
